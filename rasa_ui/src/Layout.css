@@ -1,0 +1,19 @@
+@keyframes scale-up {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.animate-scale-up {
+  animation: scale-up 5s ease-in-out; /* Adjust the animation duration as needed */
+  animation-iteration-count: 1;
+}
+#loader-content {
+  -webkit-text-stroke: 3px black;
+  font-family: "Poppins", sans-serif;
+}
+.font-abc {
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
